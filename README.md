@@ -1,1 +1,2 @@
 # odin-webpage-project
+Website project for The Odin Project (TOP). The assignment can be found here https://www.theodinproject.com/lessons/foundations-landing-page#setting-up-your-projects-github-repository. 
