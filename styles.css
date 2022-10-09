@@ -3,7 +3,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: roboto,sans-serif;
-    
 }
 .header{
     flex-direction: row;
@@ -31,7 +30,7 @@ a{
 }
 .first-box{
     margin: 0;
-    padding: 0;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,6 +73,7 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    padding: 50px;
 }
 .s-large-text{
     display: flex;
@@ -105,4 +105,97 @@ a{
     margin-right: 50px;
    color: #474f5a;
    width: 150px; 
+}
+.third-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.t-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 900px;
+}
+.t-speaker{
+    display: flex;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-right: -390px;
+}
+.fourth-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.four-itm-holder{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    
+}
+.four-bold{
+    align-self: flex-start;
+    color:white;
+    font-weight: bold;
+}
+.four-txt{
+    margin-top: -10px;
+    color: white;
+    align-self: flex-start;
+}
+.four-bold,
+.four-txt{
+    padding-left: 90px;
+}
+.four-button{
+    /* align-self: flex-end; */
+    margin-top: -50px;
+    margin-left: 550px;
+    padding-right:30px;
+    padding-left: 30px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer{
+    padding: 30px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    
+}
+.footer-txt{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+.footer-link{
+    margin-left: 4px;
+    font-size: 16px;
+    color: #e5e7eb;
 }
